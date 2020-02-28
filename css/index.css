@@ -1,0 +1,206 @@
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	height: 100px;
+	font-family: 'Barlos semi condensed', ;
+	scroll-behavior: smooth;
+}
+
+.top{
+	display: inline grid;
+	align-items: center;
+	grid-template-columns: auto auto;
+	grid-column-gap:300px;
+	padding: 10px;
+	background: #09071c;
+	color: white;
+	width: 100%;
+	height: 100%;
+
+}
+
+.navbar, ul {
+	list-style: none;
+}
+
+.navbar, ul, li {
+	display: inline-block;
+}
+
+.navbar, ul, li, a {
+	text-decoration: none;
+	color: black;
+	padding: 13px;
+
+}
+
+.menuitems {
+	text-align: center;
+	position: relative;
+	left: 60px;
+	top: -90px;
+}
+
+.logo {
+	padding-top: 20px;
+
+}
+
+.SocialMedia{
+	float: right;
+	position: relative;
+	left: -100px;
+	top: -20px;
+}
+
+.intro {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jonathan.jpg");
+	opacity: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 50%;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+
+.intro p {
+	font-size: 20px;
+
+}
+
+.grid-container {
+	display: grid;
+	grid-column-gap: 90px;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	justify-content: center;
+}
+
+.grid-container p {
+	color:#cdcdcd;
+}
+
+.grid-item {
+	border: 1px solid #cdcdcd;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	width: 290px;
+
+}
+
+.grid-item:hover {
+	border: 2px solid;
+}
+
+.services h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #ce9510;
+	width: 50px;
+}
+
+.intro p {
+	color:#fff;
+}
+
+.intro h1 {
+	font-size: 50px;
+	color: white;
+}
+
+button {
+	padding: 15px;
+	font-size: 20px;
+	width: 200px;
+	border: 2px solid #CE9510;
+	background: #CE9510;
+	color: white;
+
+} 
+
+.mission {
+	background: #f2f3f8;
+	padding: 20px 20px 20px 250px;
+	width: 100%;
+}
+
+#benefitslist ul li  {
+ list-style: none;
+ }
+
+.benefits {
+	background: linear-gradient(rgba(26,24,45,.8), rgba(26,24,45.5)),url("../images/computer2.jpeg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	margin-top: -1.6rem;
+	color: rgba(255,255,255,1); 
+}
+
+
+.benefits p {
+	color: lightgrey;
+}
+
+.Mission-content{
+	width: 100%;
+	margin-left: 33px;
+}
+
+.gridcontainer {
+	left: 90px;
+	padding: 8px;
+	display: grid;
+	grid-column-gap: 90px;
+	grid-template-columns: auto auto;
+}
+.Mission-content h3{
+	font-size: 40px;
+
+}
+.Mission-container{
+	background: #f2f3f8;
+	display: flex;
+	padding: 25px;
+	height: 38rem;
+}
+.btn-container button{
+	width:300px;
+	color: #fff;
+}
+.benefits h3{
+	font-size: 40px;
+
+}
+.inline  p{
+	line-height: -20px;
+	text-align: center;
+
+
+/*
+.Mission-container {
+	left: 90px;
+	padding: 8px;
+	display: grid;
+	grid-column-gap: 90px;
+	grid-template-columns: auto auto;
+}
+
+.benefits {
+	font-size: 40px;
+
+}
+.inline	background: #f2f3f8;
+	display: flex;
+	padding: 25px;
+	height: 38rem;
+}
+*/
